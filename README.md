@@ -10,5 +10,6 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000.
 
+## Hosting
 
 Hosted on GitHub Pages from `main` (repo root). The `CNAME` file sets the custom domain `orku.ai`, and `.nojekyll` tells Pages to serve the files as they are, without running its Jekyll site builder. Every push to `main` goes live within a minute or two.
