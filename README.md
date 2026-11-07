@@ -21,3 +21,11 @@ Hosted on GitHub Pages from `main` (repo root). The `CNAME` file sets the custom
 ```bash
 python3 tools/make-topo.py
 ```
+
+## Link preview image
+
+`og-image.png` (1200 × 630) is a screenshot of the page, used for link previews in Slack, iMessage, LinkedIn and others. To regenerate it after a design change, start the local preview, then run:
+
+```bash
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars --window-size=800,420 --force-device-scale-factor=1.5 --virtual-time-budget=3000 --screenshot="$PWD/og-image.png" http://localhost:8000/
+```
