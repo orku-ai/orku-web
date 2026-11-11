@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 6 814 324" role="img" aria-label="orku">
+  <title>orku</title>
+  <defs>
+    <clipPath id="orku-k-clip"><rect x="428" y="100" width="200" height="200"/></clipPath>
+  </defs>
+  <!-- o: disc with two-tone wedge -->
+  <circle cx="107" cy="200" r="107" fill="#18191A"/>
+  <path d="M107 200 L107 114 A86 86 0 0 1 193 200 Z" fill="#F6B04F"/>
+  <path d="M107 200 L107 154 A46 46 0 0 1 153 200 Z" fill="#D63F1C"/>
+  <!-- r -->
+  <rect x="244" y="100" width="46" height="200" fill="#18191A"/>
+  <path d="M284 150 C296 115 319 97 346 97 L354 97 L354 140 L346 140 C319 140 296 155 290 185 Z" fill="#18191A"/>
+  <!-- k -->
+  <rect x="382" y="36" width="46" height="264" fill="#18191A"/>
+  <g clip-path="url(#orku-k-clip)" stroke="#18191A" stroke-linecap="butt">
+    <line x1="405" y1="246" x2="562" y2="47" stroke-width="50"/>
+    <line x1="462" y1="174" x2="544" y2="330" stroke-width="48"/>
+  </g>
+  <!-- u -->
+  <path d="M582 100 L628 100 L628 205 C628 240 642 258 668 258 C688 258 702 248 708 232 L708 280 C694 296 678 302 662 302 C612 302 582 272 582 215 Z" fill="#18191A"/>
+  <rect x="708" y="100" width="46" height="200" fill="#18191A"/>
+</svg>

@@ -1,0 +1,13 @@
+/* orku brand tokens. Source of truth: https://orku.ai (repo orku-ai/orku-web). */
+:root {
+  /* Core palette */
+  --orku-sand:  #F6F1E6;  /* page background */
+  --orku-ink:   #18191A;  /* logo, text */
+  --orku-amber: #F6B04F;  /* outer wedge of the "o" */
+  --orku-ember: #D63F1C;  /* inner wedge of the "o" (the core) */
+
+  /* Background details */
+  --orku-contour:      rgba(24, 25, 26, 0.07);  /* regular contour line, 1 px */
+  --orku-contour-index: rgba(24, 25, 26, 0.11); /* every 5th line, 1 px */
+  --orku-glow:         #E8843A;                 /* contour lines lit by the pointer */
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 93 214 214" role="img" aria-label="orku">
+  <title>orku</title>
+  <!-- o: disc with two-tone wedge, same geometry and colors as orku-logo.svg -->
+  <circle cx="107" cy="200" r="107" fill="#18191A"/>
+  <path d="M107 200 L107 114 A86 86 0 0 1 193 200 Z" fill="#F6B04F"/>
+  <path d="M107 200 L107 154 A46 46 0 0 1 153 200 Z" fill="#D63F1C"/>
+</svg>
