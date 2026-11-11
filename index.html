@@ -37,7 +37,8 @@
       align-items: center;
       justify-content: center;
     }
-    h1 { margin: 0; width: 100%; max-width: 180px; line-height: 0; }
+    h1 { margin: 0; width: 100%; max-width: 140px; line-height: 0; }
+    @media (max-width: 600px) { h1 { max-width: 104px; } }
     h1 svg { display: block; width: 100%; height: auto; aspect-ratio: 814 / 324; }
 
     /* The contour lines light up in amber around the pointer: the same map in
@@ -62,7 +63,7 @@
   <main>
     <h1>
       <!-- Same artwork as orku-logo.svg, inlined so the wedge can turn. -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 6 814 324" role="img" aria-label="orku" width="180" height="72">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 6 814 324" role="img" aria-label="orku" width="140" height="56">
         <defs>
           <clipPath id="orku-k-clip"><rect x="428" y="100" width="200" height="200"/></clipPath>
         </defs>
